@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 320 420" style="enable-background:new 0 0 320 420;" xml:space="preserve">
+
+	<style type="text/css">
+        svg {
+            background: #eee;
+        }
+        
+		.blue{fill:#2E58A6;}
+		.red{fill:#FF0000;}
+		.violet{fill:#F0047F;}
+		.green{fill:#008837;}
+		.gray{fill:#666666;}
+		.textstyle {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+        
+        .station {
+            cursor: pointer;
+        }
+        
+        .station:hover {
+            r:12;
+        }
+        
+        .station.sel {
+            stroke: deepskyblue;
+            stroke-width: 3px;
+        }
+	</style>
+
+	<g id="railway" transform="matrix(1 0 0 1 10 10)">
+		<rect x="67.5" y="10" class="blue" width="5" height="50"/>
+		<rect x="49.7" y="92.5" transform="matrix(0.4961 0.8682 -0.8682 0.4961 127.8306 -30.2751)" class="blue" width="80.6" height="5"/>
+		<rect x="110" y="127.5" class="green" width="80" height="5"/>
+		<rect x="163.6" y="162.5" transform="matrix(0.2747 0.9615 -0.9615 0.2747 303.7072 -72.6338)" class="red" width="72.8" height="5"/>
+		<rect x="197.5" y="198.6" transform="matrix(0.9616 0.2746 -0.2746 0.9616 72.2094 -45.8818)" class="red" width="5" height="72.8"/>
+		<rect x="110" y="267.5" class="red" width="80" height="5"/>
+		<rect x="63.6" y="232.5" transform="matrix(0.2747 0.9615 -0.9615 0.2747 298.4855 74.2876)" class="violet" width="72.8" height="5"/>
+		<rect x="97.5" y="128.6" transform="matrix(0.9615 0.2748 -0.2748 0.9615 49.1916 -21.1277)" class="green" width="5" height="72.8"/>
+		<rect x="89.7" y="162.5" transform="matrix(0.4961 0.8682 -0.8682 0.4961 208.7621 -29.7345)" class="blue" width="80.6" height="5"/>
+		<rect x="129.7" y="232.5" transform="matrix(0.4961 0.8682 -0.8682 0.4961 289.6949 -29.1934)" class="blue" width="80.6" height="5"/>
+		<rect x="172" y="302.5" transform="matrix(0.5812 0.8137 -0.8137 0.5812 338.2225 -47.2303)" class="blue" width="86" height="5"/>
+		<rect x="240" y="337.5" class="blue" width="50" height="5"/>
+		<rect x="92.5" y="266.5" transform="matrix(0.8944 0.4473 -0.4473 0.8944 144.2206 -10.8092)" class="red" width="5" height="67.1"/>
+		<rect x="77.5" y="330" class="red" width="5" height="60"/>
+		<rect x="50" y="197.5" class="green" width="40" height="5"/>
+		<rect x="27.5" y="194.7" transform="matrix(0.8682 0.4961 -0.4961 0.8682 120.5453 16.0787)" class="green" width="5" height="80.6"/>
+		<rect x="187.5" y="60" class="red" width="5" height="70"/>
+		<rect x="85.3" y="307.5" transform="matrix(0.4472 0.8944 -0.8944 0.4472 349.1347 55.0883)" class="violet" width="89.4" height="5"/>
+	</g>
+    
+	<g id="stations" transform="matrix(1 0 0 1 10 10)">
+
+		<circle class="station red" cx="210" cy="200" r="10"      sname="Мелкая" nghbrs="Шумная, Жаркая"/>
+		<circle class="station red" cx="190" cy="60" r="10"       sname="Чайная" nghbrs="Шумная"/>
+		<circle class="station red" cx="80" cy="330" r="10"       sname="Судная" nghbrs="Барная, Нижняя"/>
+        <circle class="station red" cx="80" cy="390" r="10"       sname="Нижняя" nghbrs="Судная"/>
+
+
+		<circle class="station gray" cx="110" cy="130" r="10"     sname="Четкая" nghbrs="Мирная, Сочная, Шумная, Генная"/>
+		<circle class="station gray" cx="190" cy="130" r="10"     sname="Шумная" nghbrs="Чайная, Мелкая, Четкая"/>
+		<circle class="station gray" cx="110" cy="270" r="10"     sname="Барная" nghbrs="Жаркая, Парная, Судная, Генная"/>
+		<circle class="station gray" cx="190" cy="270" r="10"     sname="Жаркая" nghbrs="Сочная, Темная, Барная, Мелкая"/>
+		<circle class="station gray" cx="90" cy="200" r="10"      sname="Генная" nghbrs="Сырная, Барная, Четкая"/>
+
+		<circle class="station blue" cx="240" cy="340" r="10"     sname="Темная" nghbrs="Жаркая, Тирная"/>
+		<circle class="station blue" cx="70" cy="60" r="10"       sname="Мирная" nghbrs="Тесная, Четкая"/>
+		<circle class="station blue" cx="150" cy="200" r="10"     sname="Сочная" nghbrs="Четкая, Жаркая"/>
+		<circle class="station blue" cx="290" cy="340" r="10"     sname="Тирная" nghbrs="Темная"/>
+		<circle class="station blue" cx="70" cy="10" r="10"       sname="Тесная" nghbrs="Мирная"/>
+
+		<circle class="station green" cx="50" cy="200" r="10"     sname="Сырная" nghbrs="Супная, Генная"/>
+		<circle class="station green" cx="10" cy="270" r="10"     sname="Супная" nghbrs="Сырная"/>
+
+
+		<circle class="station violet" cx="150" cy="350" r="10"   sname="Парная" nghbrs="Барная"/>
+	</g>
+
+	    <g id="labels" transform="matrix(1 0 0 1 10 10)">
+		<text transform="matrix(1 0 0 1 80 60)" class="blue textstyle">Мирная</text>
+		<text transform="matrix(1 0 0 1 200 60)" class="red textstyle">Чайная</text>
+		<text transform="matrix(1 0 0 1 200 130)" class="gray textstyle">Шумная</text>
+		<text transform="matrix(1 0 0 1 220 200)" class="red textstyle">Мелкая</text>
+		<text transform="matrix(1 0 0 1 120 120)" class="gray textstyle">Четкая</text>
+		<text transform="matrix(1 0 0 1 -5 200)" class="green textstyle">Сырная</text>
+		<text transform="matrix(1 0 0 1 200 270)" class="textstyle">Жаркая</text>
+		<text transform="matrix(1 0 0 1 150 190)" class="blue textstyle">Сочная</text>
+		<text transform="matrix(1 0 0 1 120 260)" class="gray textstyle">Барная</text>
+		<text transform="matrix(1 0 0 1 100 220)" class="gray textstyle">Генная</text>
+		<text transform="matrix(1 0 0 1 90 330)" class="red textstyle">Судная</text>
+		<text transform="matrix(1 0 0 1 25 270)" class="green textstyle">Супная</text>
+		<text transform="matrix(1 0 0 1 160 350)" class="violet textstyle">Парная</text>
+		<text transform="matrix(1 0 0 1 240 330)" class="blue textstyle">Темная</text>
+		<text transform="matrix(1 0 0 1 260 360)" class="blue textstyle">Тирная</text>
+		<text transform="matrix(1 0 0 1 90 390)" class="red textstyle">Нижняя</text>
+		<text transform="matrix(1 0 0 1 80 10)" class="blue textstyle">Тесная</text>
+	</g>
+</svg>
